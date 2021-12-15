@@ -60,12 +60,15 @@
   padding-bottom: 30px;
 }
 
-
 .contact-us {
-    background-image: url("../backgrounds/c_image.jpg");
-    width: 100%;
-    height: 300px;
-    background-size: 100% 100%;
-    color: beige;
-    text-align: center;
+  background-image: url("../backgrounds/c_image.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: 100% 100%;
+  color: beige;
+  text-align: center;
+}
+
+.form {
+  padding-top: 5%;
 }
