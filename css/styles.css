@@ -41,15 +41,12 @@
     font-weight: 500;
     font-size: 12px;
 }
-
 .what-we-do {
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 15px;
 }
 
-.what-we-do p {
-    align-content: center;
-    font-weight: 500;
-    font-size: 12px;
+.portifolio {
+    text-align: center;
+    padding-top: 15px;
 }
