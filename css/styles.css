@@ -73,6 +73,11 @@
   padding-top: 5%;
 }
 
-.socialIcons {
-    padding-top: 3%;
-}
+
+
+.socialIcons img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
