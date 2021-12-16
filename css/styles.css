@@ -73,11 +73,21 @@
   padding-top: 5%;
 }
 
-
-
 .socialIcons img {
-    max-width: 100%;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
+  max-width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#design {
+  display: none;
+}
+
+#development {
+  display: none;
+}
+
+#product {
+  display: none;
+}
