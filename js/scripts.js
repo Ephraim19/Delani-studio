@@ -4,3 +4,10 @@ $(document).ready(function () {
     $("#design-img").toggle()
   });
 });
+
+$(document).ready(function () {
+    $("#dev").click(function () {
+      $("#development").toggle();
+      $("#development-img").toggle()
+    });
+  });
