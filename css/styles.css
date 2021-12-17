@@ -70,7 +70,8 @@
 }
 
 .form {
-  padding-top: 5%;
+  padding: 5%;
+  background: none;
 }
 
 .socialIcons img {
@@ -89,5 +90,9 @@
 }
 
 #product {
+  display: none;
+}
+
+#work4pop {
   display: none;
 }
