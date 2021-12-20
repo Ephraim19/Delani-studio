@@ -19,8 +19,19 @@ $(document).ready(function () {
   });
 });
 
+//$(document).ready(function () {
+//$("#work4").hover(function () {
+//$("#work4pop").popup();
+//});
+//});
+
 $(document).ready(function () {
-  $('#work4').hover(function(){
-    $('#work4pop').popup()
-  })
+  $("form").submit(function (event) {
+    var name = $('input#name').val()
+    var email = $('input#email').val()
+    var message = $('input#message').val()
+
+    console.log( message)
+    event.preventDefault();
+  });
 });
