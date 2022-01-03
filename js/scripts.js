@@ -101,3 +101,18 @@ $(document).ready(function () {
     $("#work8pop").hide();
   });
 });
+
+var popup = document.getElementById("popup");
+var input = document.getElementById("submitButton");
+input.addEventListener("click", submittedValues, true);
+function submittedValues(event) {
+  event.preventDefault();
+  popup.style.display = "block";
+  console.log("clicked");
+}
+
+window.onclick = function (event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+};
