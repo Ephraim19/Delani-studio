@@ -93,16 +93,19 @@
   display: none;
 }
 
-#work4 {
+#work4, #work3, #work2 , #work1, #work5, #work6, #work7, #work8{
   position: relative;
   text-align: center;
   color: white;
 }
 
-#work4pop {
+#work4pop, #work3pop, #work2pop  , #work1pop, #work5pop, #work6pop, #work7pop, #work8pop {
   display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: white;
+  color: #000;
+  padding: 4%;
 }
