@@ -19,19 +19,19 @@ $(document).ready(function () {
   });
 });
 
-//$(document).ready(function () {
-//$("#work4").hover(function () {
-//$("#work4pop").popup();
-//});
-//});
-
 $(document).ready(function () {
   $("form").submit(function (event) {
-    var name = $('input#name').val()
-    var email = $('input#email').val()
-    var message = $('input#message').val()
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
 
-    console.log( message)
+    console.log(message);
     event.preventDefault();
+  });
+});
+
+$(document).ready(function () {
+  $("#work4").hover(function () {
+    $("#work4pop").show();
   });
 });
